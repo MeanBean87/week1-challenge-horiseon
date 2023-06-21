@@ -32,14 +32,13 @@ THEN I find a concise, descriptive title
 
 The source code did not follow proper HTML semantics, many overly used div containers and improper use of HTML tags as well as a broken link. The images did not provide accessibility for screen readers. The CSS file contained many redundant declarations that caused significant code bloat and sections needed to be commented to provide better readability.
 
-Link to GH Pages: 
+Link to deployed page: [Horiseon Webpage](https://meanbean87.github.io/week1-challenge-horiseon/#social-media-marketing)
 
 Screenshot:
 
 <div align="center">
   <img src="./assets/images/demo.png" alt="Screenshot">
 </div>
-
 
 ## Installation
 
