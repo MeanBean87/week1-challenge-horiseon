@@ -66,13 +66,13 @@ p {
 .float-left {
   float: left;
   margin-right: 25px;
-  max-height: 200px
+  max-height: 200px;
 }
 
 .float-right {
   float: right;
   margin-left: 25px;
-  max-height: 200px
+  max-height: 200px;
 }
 
 .content {
@@ -140,6 +140,7 @@ footer {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
+  background-color: #d9dcd6;
 }
 
 footer h3 {
