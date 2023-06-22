@@ -11,7 +11,7 @@
 <body>
     <!-- Added Header Element to the HTML -->
     <header>
-        <h1>Hori<span class="seo">seo</span>n</h1>
+        <h1>Hori<em class="seo">seo</em>n</h1>
         <!-- Changed div to nav element -->
         <nav>
             <ul>
@@ -29,14 +29,21 @@
     </header>
     <!-- Changed div to section element and added alt text to images and icons moved hero to main -->
     <main>
-        <section class="hero" aria-label="Picture of a Digital Marketing Meeting"></section>
+        <figure>
+            <!-- Hero content -->
+            <section class="hero" aria-label="Picture of a Digital Marketing Meeting"></section>
+        </figure>
+
 
         <section class="content">
             <!-- Changed from class to id to correct issue with link not working on search-engine-optimization link and added 
         "alt text" for pictures. Changed div to article to follow semantics, updated divs to articles and wrapped in a section -->
             <article id="search-engine-optimization" class="search-engine-optimization">
-                <img src="./assets/images/search-engine-optimization.jpg" class="float-left"
-                    alt="SEO written on a notepad in an office." />
+                <!-- Search Engine Optimization content -->
+                <figure>
+                    <img src="./assets/images/search-engine-optimization.jpg" class="float-left"
+                        alt="SEO written on a notepad in an office." />
+                </figure>
                 <h2>Search Engine Optimization</h2>
                 <p>
                     The dominance of mobile internet use means that users are searching for the right business as they
@@ -45,8 +52,11 @@
                 </p>
             </article>
             <article id="online-reputation-management" class="online-reputation-management">
-                <img src="./assets/images/online-reputation-management.jpg" class="float-right"
-                    alt="A laptop computer with a bargraph of reputation." />
+                <!-- Online Reputation Management content -->
+                <figure>
+                    <img src="./assets/images/online-reputation-management.jpg" class="float-right"
+                        alt="A laptop computer with a bargraph of reputation." />
+                </figure>
                 <h2>Online Reputation Management</h2>
                 <p>
                     The web is full of opinions, and some of these can be negative. Social media allows anyone with an
@@ -56,8 +66,11 @@
                 </p>
             </article>
             <article id="social-media-marketing" class="social-media-marketing">
-                <img src="./assets/images/social-media-marketing.jpg" class="float-left"
-                    alt="A wooden table covered with pictures of emojis and bubble words surrounded by 6 people." />
+                <!-- Social Media Marketing content -->
+                <figure>
+                    <img src="./assets/images/social-media-marketing.jpg" class="float-left"
+                        alt="A wooden table covered with pictures of emojis and bubble words surrounded by 6 people." />
+                </figure>
                 <h2>Social Media Marketing</h2>
                 <p>
                     Social media continues to have a sizable influence on buying habits. Social media marketing helps
@@ -68,10 +81,13 @@
             </article>
         </section>
 
-        <section class="benefits">
+        <section class="benefits-section">
             <aside class="benefit">
+                <!-- Lead Generation content-->
                 <h3>Lead Generation</h3>
-                <img src="./assets/images/lead-generation.png" alt="lead generation icon" />
+                <figure>
+                    <img src="./assets/images/lead-generation.png" alt="lead generation icon" />
+                </figure>
                 <p>
                     Inbound strategies for lead generation require less work for your business, bringing customers
                     directly
@@ -79,23 +95,30 @@
                 </p>
             </aside>
             <aside class="benefit">
+                <!-- Brand Awareness content-->
                 <h3>Brand Awareness</h3>
-                <img src="./assets/images/brand-awareness.png" alt="brand awareness icon" />
+                <figure>
+                    <img src="./assets/images/brand-awareness.png" alt="brand awareness icon" />
+                </figure>
+
                 <p>
                     Users find your business through paid and organic searches, increasing the search ranking and
                     visibility
                     for your business.
                 </p>
-                </side>
-                <aside class="benefit">
-                    <h3>Cost Management</h3>
+            </aside>
+            <aside class="benefit">
+                <!-- Cost Management content-->
+                <h3>Cost Management</h3>
+                <figure>
                     <img src="./assets/images/cost-management.png" alt="cost management icon" />
-                    <p>
-                        As the search ranking for your business increases, your advertising costs decrease, and you no
-                        longer
-                        need to advertise your page.
-                    </p>
-                </aside>
+                </figure>
+                <p>
+                    As the search ranking for your business increases, your advertising costs decrease, and you no
+                    longer
+                    need to advertise your page.
+                </p>
+            </aside>
         </section>
     </main>
     <!-- updated div to footer element and changed h2 to h3 to follow proper semantics -->

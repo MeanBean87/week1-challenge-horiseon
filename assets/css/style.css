@@ -44,6 +44,7 @@ nav {
 
 .seo {
   color: #d9dcd6;
+  font-style: normal
 }
 
 /* Link Styles */
@@ -104,7 +105,7 @@ article h2 {
 }
 
 /* Benefits Section Styles */
-.benefits {
+.benefits-section {
   margin-right: 20px;
   padding: 20px;
   clear: both;
@@ -127,7 +128,7 @@ article h2 {
   margin-bottom: 2rem;
 }
 
-.benefits img {
+.benefits-section img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
